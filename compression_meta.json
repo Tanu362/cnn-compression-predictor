@@ -1,0 +1,28 @@
+{
+  "quant_map": {
+    "none": 0,
+    "fp16": 1,
+    "int8": 2
+  },
+  "features": [
+    "pruning",
+    "quant_num",
+    "svd"
+  ],
+  "baseline_accuracy": 87.28,
+  "baseline_nonzero": 11181642,
+  "baseline_size_mb": 42.7311,
+  "baseline_gflops": 3.6271,
+  "cifar10_classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ]
+}
